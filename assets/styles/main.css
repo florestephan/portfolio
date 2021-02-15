@@ -51,3 +51,8 @@ span svg {
     bottom: 6px;
     right: 10px;
 }
+
+.main-nav__link{
+    text-decoration: none;
+    color: black;
+}
