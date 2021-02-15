@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
+
+/* Page intro
+body{
+    background-color: #F3D7D7;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ */
+
+
+/*
+Page about
+ */
+body {
+    background-color: #F3EAD8;
+    font-family: 'Linden Hill', serif;
+}
+
+.main-nav__list{
+    margin: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-nav__item{
+    font-size: 36px;
+    flex-grow: 1;
+}
+
+.main-nav__item:nth-child(3n) span:first-child{
+    position: relative;
+    right: 45px;
+}
+
+.main-nav__item span{
+    display: flex;
+    align-items: center;
+    font-size: 48px;
+    text-transform: uppercase;
+    justify-content: flex-end;
+}
+
+span svg {
+    position: relative;
+    bottom: 6px;
+    right: 10px;
+}
