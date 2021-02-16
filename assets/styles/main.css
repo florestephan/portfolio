@@ -22,23 +22,23 @@ body {
     font-family: 'Linden Hill', serif;
 }
 
-.main-nav__list{
+.header-nav__list{
     margin: 40px 40px;
     display: flex;
     justify-content: space-between;
 }
 
-.main-nav__item{
+.header-nav__item{
     font-size: 36px;
     flex-grow: 1;
 }
 
-.main-nav__item:nth-child(3n) span:first-child{
+.header-nav__item:nth-child(3n) span:first-child{
     position: relative;
     right: 45px;
 }
 
-.main-nav__item span{
+.header-nav__item span{
     display: flex;
     align-items: center;
     font-size: 48px;
@@ -52,7 +52,7 @@ span svg {
     right: 10px;
 }
 
-.main-nav__link{
+.header-nav__link{
     text-decoration: none;
     color: black;
 }
