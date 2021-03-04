@@ -7,24 +7,32 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Stéphan Flores</title>
     <link rel="stylesheet" type="text/css" href="./assets/styles/reset.css"/>
+    <link rel="stylesheet" type="text/css" href="./assets/styles/scroll.css"/>
     <link rel="stylesheet" type="text/css" href="./assets/styles/main.css"/>
 </head>
-<body>
+<body data-scroll-container>
 <div class="container">
-    <header class="header">
-        <nav class="header-nav">
-            <ul class="header-nav__list">
-                <li class="header-nav__item">
-                    <a href="#" class="header-nav__link">lets work</a>
-                </li>
-                <li class="header-nav__item">
-                    <a href="#" class="header-nav__link">about</a>
-                </li>
-                <li class="header-nav__item">
+    <div class="container-index">
+
+        <img class="container__title" src="./assets/images/Initialesf.svg" alt="initiale"/>
+
+    </div>
+
+    <div class="container-about">
+        <header class="header">
+            <nav class="header-nav">
+                <ul class="header-nav__list">
+                    <li class="header-nav__item">
+                        <a href="#" class="header-nav__link">lets work</a>
+                    </li>
+                    <li class="header-nav__item">
+                        <a href="#" class="header-nav__link">about</a>
+                    </li>
+                    <li class="header-nav__item">
                     <span>
                         <a href="#" class="header-nav__link">stephan</a>
                     </span>
-                    <span>
+                        <span>
                             <svg width="46" height="4" viewBox="0 0 46 4" fill="none"
                                  xmlns="http://www.w3.org/2000/svg">
                         <line y1="2" x2="46" y2="2" stroke="black" stroke-width="4"/></svg>
@@ -32,21 +40,21 @@
                             flores
                         </a>
                     </span>
-                </li>
-            </ul>
+                    </li>
+                </ul>
 
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <main class="main">
+        <main class="main">
 
-        <img class="main__picture" src="./assets/images/about.svg" alt="about me"/>
+            <img class="main__picture" src="./assets/images/about.svg" alt="about me" data-scroll data-scroll-speed="1"/>
 
-        <div class="main-title">
+            <div class="main-title">
              <span>
             <a href="#" class="main-title__item">front end</a>
         </span>
-            <span>
+                <span>
             <svg width="46" height="4" viewBox="0 0 46 4" fill="none"
                  xmlns="http://www.w3.org/2000/svg">
                 <line y1="2" x2="46" y2="2" stroke="black" stroke-width="4"/></svg>
@@ -54,8 +62,11 @@
                 developer
             </a>
         </span>
-        </div>
-    </main>
+            </div>
+        </main>
+    </div>
 </div>
+
+<script src="assets/js/app.js"></script>
 </body>
 </html>

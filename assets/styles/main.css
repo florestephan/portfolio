@@ -1,23 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Linden+Hill&display=swap');
 
-/* Page intro
-body{
-    background-color: #F3D7D7;
+.container{
+    display: flex;
 }
 
-.container{
+
+/* Page intro*/
+.container-index{
     height: 100vh;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #F3D7D7;
 }
- */
+
 
 
 /*
 Page about
  */
-body {
+.container-about {
+    height: 100vh;
+    width: 100vw;
     background-color: #F3EAD8;
     font-family: 'Linden Hill', serif;
 }
